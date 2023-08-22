@@ -1,11 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Contact from "./components/Contact";
+import Services from "./components/Services";
+import Pricing from "./components/Pricing"
+import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="App">
-      Pet Finder
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        
+        <Routes>
+          <Route path={"/"} element={<Home />}/>
+        </Routes>
+        <Routes>
+          <Route path={"/contact"} element={<Contact />}/>
+        </Routes>
+        <Routes>
+          <Route path={"/services"} element={<Services />}/>
+        </Routes>
+        <Routes>
+          <Route path={"/pricing"} element={<Pricing />}/>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
