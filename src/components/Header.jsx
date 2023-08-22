@@ -31,7 +31,9 @@ const Header = () => {
                 </div>
                 <div className="nav-items">
                     <ul>
-                        <li className='current'>Home</li>
+                        <li className='current'>
+                            <Link to={"/"} >Home</Link>
+                        </li>
                         <li>About</li>
                         <li>
                             <Link className='link' to={"/services"}> Services </Link>
