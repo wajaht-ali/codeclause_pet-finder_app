@@ -16,7 +16,7 @@ const Home = () => {
                 autoPlay
                 showStatus={true}
                 showArrows={true}
-                interval={4000}
+                interval={3500}
                 showThumbs={false}
                 showIndicators={true}
             >
