@@ -1,5 +1,6 @@
 import React from 'react'
-import { Carousel } from 'react-responsive-carousel'
+import { Carousel } from 'react-responsive-carousel';
+import TypeWriter from "typewriter-effect";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../styling/Home.scss";
 import img1 from "../assets/imgs/img1.jpeg";
@@ -20,12 +21,29 @@ const Home = () => {
                 showThumbs={false}
                 showIndicators={true}
             >
-                    <img src={img1} alt="" />
-                    <img src={img2} alt="" />
-                    <img src={img3} alt="" />
-                    <img src={img4} alt="" />
-                    <img src={img5} alt="" />
+                <img src={img1} alt="" />
+                <img src={img2} alt="" />
+                <img src={img3} alt="" />
+                <img src={img4} alt="" />
+                <img src={img5} alt="" />
             </Carousel>
+
+            <div className="content">
+                <h1>Pet Finder</h1>
+                
+                <h3>
+                    <TypeWriter
+                        options={{
+                            strings: ['This is a single text.'],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    />
+                </h3>
+
+                <a href="/services"><button>Adopt Me</button></a>
+
+            </div>
         </div>
     )
 }
