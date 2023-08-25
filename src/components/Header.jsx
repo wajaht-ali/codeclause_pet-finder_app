@@ -27,7 +27,7 @@ const Header = () => {
             <div className="navbar">
                 <div className="logo">
                     <MdMail />
-                    <h2>Pet Finder</h2>
+                    <Link to={'/'} className='link'><h2>Pet Finder</h2></Link>
                 </div>
                 <div className="nav-items">
                     <ul>

@@ -16,8 +16,9 @@ $secondary: #f4f4f4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-color: rgb(240, 237, 236);
+}
 .current {
-    background-color: $color2;
     color: $color1;
-    border-radius: 5px;
 }

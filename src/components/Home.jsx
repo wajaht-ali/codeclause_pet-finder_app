@@ -29,21 +29,55 @@ const Home = () => {
             </Carousel>
 
             <div className="content">
-                <h1>Pet Finder</h1>
-                
-                <h3>
+                <p>We will take care of</p>
+                <h1>your pets!</h1>
+
+                <h3>We Deal in:
                     <TypeWriter
                         options={{
-                            strings: ['This is a single text.'],
+                            strings: ["Cats", "Dogs", "Birds"],
                             autoStart: true,
                             loop: true,
+                            // interval: "1000",
+                            wrapperClassName: "typeWriterText"
                         }}
                     />
                 </h3>
 
-                <a href="/services"><button>Adopt Me</button></a>
-
+                <a href="/services"><button>Adopt Here</button></a>
             </div>
+
+            <div className="pets-section">
+                <div className="header-top">
+                    <h1>Pets We Takecare</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, necessitatibus?</p>
+                </div>
+                <div className="animals-view">
+                    {/* <div className="pics"> */}
+                    <div className="box top">
+                        <img src={img1} alt="img" />
+                        <h2>Cats</h2>
+                    </div>
+                    <div className="box down">
+                        <img src={img2} alt="img" />
+                        <h2>Dogs</h2>
+                    </div>
+                    <div className="box top">
+                        <img src={img3} alt="img" />
+                        <h2>Birds</h2>
+                    </div>
+                    <div className="box down">
+                        <img src={img4} alt="img" />
+                        <h2>Rabbits</h2>
+                    </div>
+                    <div className="box top">
+                        <img src={img5} alt="img" />
+                        <h2>Fishes</h2>
+                    </div>
+                    {/* </div> */}
+                </div>
+            </div>
+
         </div>
     )
 }
