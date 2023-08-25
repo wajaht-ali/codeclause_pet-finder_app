@@ -1,0 +1,231 @@
+@import "./Utilities.scss";
+
+.footer {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #333;
+
+    >.main {
+        height: 85%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem;
+
+        .contacts {
+            height: 100%;
+            width: 30%;
+            // border: 2px solid #fff;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            color: $color1;
+            font-size: 1.2rem;
+
+            >.credentials {
+                color: #fff;
+                margin: 1rem 0rem;
+
+                .address {
+                    margin: 1rem 0;
+                    display: flex;
+                    flex-direction: row;
+
+                    svg {
+                        color: $color2;
+                        margin: 0 .5rem;
+                    }
+                }
+
+                .phone {
+                    margin: 1rem 0;
+                    display: flex;
+                    flex-direction: row;
+
+                    svg {
+                        color: $color2;
+                        margin: 0 .5rem;
+                    }
+                }
+
+                .mail {
+                    margin: 1rem 0;
+                    display: flex;
+                    flex-direction: row;
+
+                    svg {
+                        color: $color2;
+                        margin: 0 .5rem;
+                    }
+                }
+            }
+
+            .icons {
+                width: 70%;
+
+                >ul {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+
+                    li {
+                        padding: 1rem;
+                        background-color: #626262;
+                        border-radius: 50%;
+
+                        svg {
+                            font-size: 1.5rem;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+
+        .opening {
+            height: 100%;
+            width: 33%;
+            // border: 2px solid #fff;
+            padding: 1rem;
+            color: $color1;
+            display: flex;
+            flex-direction: column;
+
+            >h1 {
+                font-size: 2.5rem;
+            }
+
+            >.timings {
+                margin: 2rem 0;
+                font-size: 1.2rem;
+            }
+
+            .line {
+                margin: .5rem 0;
+                padding: .5rem 0;
+                border-bottom: 2px solid #626262;
+                display: flex;
+                justify-content: space-between;
+
+                #p2 {
+                    color: $color2;
+                }
+            }
+
+        }
+
+        .instagram {
+            padding: 1rem;
+            height: 100%;
+            width: 33%;
+            // border: 2px solid #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            color: $color1;
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .posts {
+                display: grid;
+                grid-template-areas:
+                    'pic pic pic pic';
+                gap: .5rem;
+
+                img {
+                    grid-area: pic pic;
+                    height: 80px;
+                    width: 80px;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        height: 15%;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 3rem;
+
+        .copyrights {
+            // border: 2px solid #fff;
+            color: #fff;
+            width: 50%;
+            font-size: 1.1rem;
+        }
+
+        .nav-icons {
+            width: 30%;
+            // border: 2px solid #fff;
+
+            >ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+
+                >li {
+                    font-size: 1.2rem;
+                    transition: all .3s;
+
+                    &:hover {
+                        cursor: pointer;
+                        transform: scale(1.1);
+                    }
+
+                    >#link {
+                        color: #fff;
+
+                        &:hover {
+                            color: $color2;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .btn-top {
+        height: 100%;
+        width: 5%;
+        background-color: #333;
+
+        a {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem auto;
+            font-size: 2.5rem;
+            color: #fff;
+
+            &:hover {
+                color: $color2;
+                transform: scale(1.3);
+            }
+
+        }
+    }
+
+    // .box {
+    //     margin: .5rem;
+    //     &:hover {
+    //         transition: all .8s;
+    //         box-shadow: 5px 5px 10px #626262;
+    //         transform: scale(1.03);
+    //     }
+    // }
+}

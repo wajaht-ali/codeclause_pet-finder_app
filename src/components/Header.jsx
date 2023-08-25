@@ -5,7 +5,7 @@ import { AiFillFacebook, AiFillTwitterCircle, AiFillGooglePlusSquare, AiFillLink
 
 const Header = () => {
     return (
-        <div className='header'>
+        <div className='header' id='header'>
             <div className="topbar">
                 <div className="contact-info">
                     <MdPhone />

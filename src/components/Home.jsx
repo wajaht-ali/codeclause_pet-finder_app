@@ -2,6 +2,7 @@ import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import TypeWriter from "typewriter-effect";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Footer from './Footer';
 import "../styling/Home.scss";
 import img1 from "../assets/imgs/img1.jpeg";
 import img2 from "../assets/imgs/img2.jpeg";
@@ -11,7 +12,7 @@ import img5 from "../assets/imgs/img5.jpeg";
 
 const Home = () => {
     return (
-        <div className='home'>
+        <div className='home' id='home'>
             <Carousel
                 infiniteLoop
                 autoPlay
@@ -77,7 +78,8 @@ const Home = () => {
                     {/* </div> */}
                 </div>
             </div>
-
+            
+            <Footer />
         </div>
     )
 }
