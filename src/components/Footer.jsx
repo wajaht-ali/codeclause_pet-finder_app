@@ -80,10 +80,10 @@ const Footer = () => {
                 </div>
                 <div className="nav-icons">
                     <ul>
-                        <li><NavLink id='link' to={"/"}>Home</NavLink></li>
-                        <li><NavLink id='link' >About</NavLink></li>
-                        <li><NavLink id='link' >Services</NavLink></li>
-                        <li><NavLink id='link' >Contact</NavLink></li>
+                        <li><NavLink to={"/"} id='link'>Home</NavLink></li>
+                        <li><NavLink to={"/about"} id='link' >About</NavLink></li>
+                        <li><NavLink to={"/services"} id='link' >Services</NavLink></li>
+                        <li><NavLink to={"/contact"} id='link' >Contact</NavLink></li>
                     </ul>
                 </div>
                 <div className="btn-top">
@@ -94,4 +94,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
