@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
-import Pricing from "./components/Adopt"
+import Adopt from "./components/Adopt"
 import Home from "./components/Home";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
           <Route path={"/services"} element={<Services />}/>
         </Routes>
         <Routes>
-          <Route path={"/pricing"} element={<Pricing />}/>
+          <Route path={"/adopt-me"} element={<Adopt />}/>
         </Routes>
       </div>
     </BrowserRouter>

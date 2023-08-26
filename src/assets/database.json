@@ -1,0 +1,124 @@
+{
+    "adoptions": [
+        {
+            "firstname": "Akita",
+            "img": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/06154034/Akita-standing-outdoors-in-the-summer.jpg",
+            "about": "The Akita is a muscular, double-coated dog of ancient Japanese lineage famous for their dignity",
+            "category": "Dogs"
+        },
+        {
+            "firstname": "American Bulldog",
+            "img": "https://www.akc.org/wp-content/uploads/2020/01/American-Bulldog-standing-in-three-quarter-view.jpg",
+            "about": "American Bulldogs are a well-balanced athletic dog that demonstrate great strength, endurance",
+            "category": "Dogs"
+        },
+        {
+            "firstname": "Barbet",
+            "img": "https://www.akc.org/wp-content/uploads/2017/11/Barbet-standing-in-the-snow.jpg",
+            "about": "An archetypic water dog of France, the Barbet is a rustic breed of medium size and balanced.",
+            "category": "Dogs"
+        },
+        {
+            "firstname": "Basset Hound",
+            "img": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/07200501/Basset-Hound-standing-in-the-garden.jpg",
+            "about": "Among the the AKC breeds, the endearing and instantly recognizable Basset Hound",
+            "category": "Dogs"
+        },
+        {
+            "firstname": "American Leopard Hound",
+            "img": "https://www.akc.org/wp-content/uploads/2017/11/American-Leopard-Hound-On-White-01.jpg",
+            "about": "Intelligence is one of the American Leopard Hound's very best attributes. ",
+            "category": "Dogs"
+        },
+        {
+            "firstname": "Basenji",
+            "img": "https://www.akc.org/wp-content/uploads/2017/11/Basenji-running-through-a-field.jpg",
+            "about": "The Basenji, Africa's 'Barkless Dog,' is a compact, sweet-faced hunter of intelligence and poise",
+            "category": "Dogs"
+        },
+        {
+            "firstname": "American Shorthair",
+            "img": "https://www.thesprucepets.com/thmb/8kB1X2EERvfRfyw8QiDfdYiEijo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AmericanShorthair-a379c1f6515945b286ad321df678b14b.jpg",
+            "about": "The American shorthair, the pedigreed version of the domestic shorthair, is an easygoing cat",
+            "category": "Cats"
+        },
+        {
+            "firstname": "British Shorthair",
+            "img": "https://www.thesprucepets.com/thmb/GZNB3F7Z6l4NFlVHdlpgoNCxzOk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-869607794-66e707a748a143d9863c21d56ddac822.jpg",
+            "about": "The British shorthair is an extremely adaptable cat that can thrive in an apartment.",
+            "category": "Cats"
+        },
+        {
+            "firstname": "Exotic",
+            "img": "https://www.thesprucepets.com/thmb/ZShCLr7Ov9NoohlcOoVE8aQUmJs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ExoticCat-5780f5c90cec4af4bbcd4c3d6eff49fb.jpg",
+            "about": "Exotics are essentially the shorthaired version of the Persian cat.",
+            "category": "Cats"
+        },
+        {
+            "firstname": "Maine Coon",
+            "img": "https://www.thesprucepets.com/thmb/lTPGWe2vdLJaZLXGcZlcE8KTSwc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Brother-SisterMaineCoon_Nina-Pearman2122x1415-56a112a83df78cafdaa926f5.jpg",
+            "about": "The Maine coon is known as a gentle giant for its easygoing, friendly nature.",
+            "category": "Cats"
+        },
+        {
+            "firstname": "Persian",
+            "img": "https://www.thesprucepets.com/thmb/LhvTMMkzz2HPrzY0b5t37QmoFxU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-888235836-332a5c5bd7c64e3f9ae55dba76beddc8.jpg",
+            "about": "These gentle and serene cats are happy to plop down on any available soft surface.",
+            "category": "Cats"
+        },
+        {
+            "firstname": "Angora",
+            "img": "https://www.hepper.com/wp-content/uploads/2023/04/fluffy-white-angora-rabbit-sitting-outdoor_Rita_Kochmarjova_Shutterstock.webp",
+            "about": "Angoras are an old breed dating back to the American Angora rabbit fur trade of the 1930s",
+            "category": "Rabbits"
+        },
+        {
+            "firstname": "Rex",
+            "img": "https://www.hepper.com/wp-content/uploads/2023/04/two-blue-rex-rabbits_SeraphP_Shutterstock.webp",
+            "about": "The Rex rabbit is a medium rabbit weighing between 6 and 7 ½ pounds and is renowned ",
+            "category": "Rabbits"
+        },
+        {
+            "firstname": "French Lop",
+            "img": "https://www.hepper.com/wp-content/uploads/2023/04/french-lop-rabbit-sitting-on-the-grass_Anton-Nikitinskiy_Shutterstock.webp",
+            "about": "The large-eared, soft-furred French Lop was first developed in the 19th century by crossing",
+            "category": "Rabbits"
+        },
+        {
+            "firstname": "Flemish Giant",
+            "img": "https://www.hepper.com/wp-content/uploads/2023/04/flemish-giant-rabbit-sleeping_hacksss_Shutterstock.webp",
+            "about": "The Flemish Giant is the famously massive rabbit that tops the table as the largest breed of rabbit",
+            "category": "Rabbits"
+        },
+        {
+            "firstname": "Netherland Dwarf",
+            "img": "https://www.hepper.com/wp-content/uploads/2023/04/Netherlands-Dwarf-rabbit_Regan_Pixabay.webp",
+            "about": "On the other end of the scale, the tiny Netherland Dwarf is one of the smallest breeds of rabbits ",
+            "category": "Rabbits"
+        },
+        {
+            "firstname": "Guppies",
+            "img": "https://www.thesprucepets.com/thmb/WACNTqGYpeBYmObnGc-k9rvkyHA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-154933437-f49a0dfe2bd04c0197456e9c155854c5.jpg",
+            "about": "Guppies are a cornerstone of the small fish aquarium hobby",
+            "category": "fish"
+        },
+        {
+            "firstname": "Neon Tetra",
+            "img": "https://www.thesprucepets.com/thmb/MLB0Vxqcm2zh2__opjHFTNDGOhk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-514967377-48c8f14166144079b11c6e6b074b89a6.jpg",
+            "about": "One of the most common small freshwater aquarium species",
+            "category": "fish"
+        },
+        {
+            "firstname": "Harlequin Rasbora",
+            "img": "https://www.thesprucepets.com/thmb/cYbBYev16dxJuGy5oI14VL3lcm8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-517930673-7000ad78b0924379ae3ac46dc7da391b.jpg",
+            "about": "The Harlequin Rasbora is a small, schooling fish with a vibrant ruby",
+            "category": "fish"
+        },
+        {
+            "firstname": "Serpae Tetra",
+            "img": "https://www.thesprucepets.com/thmb/yNIBDe3odSVdO02ZhavMEOTnze4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1157577873-9797faf29d1b4c7baebb78414e4e34e8.jpg",
+            "about": "The Serpae Tetra is a smaller fish with a big personality.",
+            "category": "fish"
+        }
+    ]
+}

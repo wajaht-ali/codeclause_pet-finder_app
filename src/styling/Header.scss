@@ -110,6 +110,18 @@
                     }
                 }
             }
+            .special {
+                background-color: $color2;
+                border-radius: 5px;
+                color: #fff;
+
+                &:hover {
+                    border: 2px solid $color2;
+                    background-color: rgb(253, 243, 243);
+                    
+                }
+                // border: 2px solid $color2;
+            }
         }
     }
 }

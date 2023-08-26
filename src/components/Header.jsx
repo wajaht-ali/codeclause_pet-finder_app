@@ -1,6 +1,7 @@
 import '../styling/Header.scss';
 import { Link, NavLink } from 'react-router-dom';
 import { MdMail, MdPhone } from "react-icons/md";
+import {FaDog} from "react-icons/fa"
 import { AiFillFacebook, AiFillTwitterCircle, AiFillGooglePlusSquare, AiFillLinkedin } from "react-icons/ai";
 
 const Header = () => {
@@ -26,7 +27,7 @@ const Header = () => {
             </div>
             <div className="navbar">
                 <div className="logo">
-                    <MdMail />
+                    <FaDog />
                     <Link to={'/'} className='link'><h2>Pet Finder</h2></Link>
                 </div>
                 <div className="nav-items">
@@ -38,8 +39,8 @@ const Header = () => {
                         <li>
                             <Link className='link' to={"/services"}> Services </Link>
                         </li>
-                        <li>
-                        <Link className='link' to={"/adopt"}> Adopt Me </Link>
+                        <li className='special'>
+                        <Link className='link' to={"/adopt-me"}> Adopt Here! </Link>
                         </li>
                         <li>
                             <Link className='link' to={"/contact"}> Contact </Link>
