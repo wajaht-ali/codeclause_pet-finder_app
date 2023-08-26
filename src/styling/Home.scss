@@ -4,8 +4,7 @@
 .home {
     height: 85vh;
     width: 100%;
-    // padding: 1rem 0rem;
-
+    
     img {
         height: 85vh;
         width: 100%;
@@ -116,9 +115,9 @@
                     border-radius: 50%;
                     border: .5rem solid white;
                     box-shadow: 5px 5px 10px #333;
-                    
+
                 }
-                
+
                 h2 {
                     text-align: center;
                     margin-top: 2rem;
@@ -127,11 +126,12 @@
 
             .top {
                 position: relative;
+
                 img {
                     animation: animate2 alternate infinite 2s;
                     margin-top: 3rem;
                 }
-                
+
                 // h2  {
                 //     margin-top: 1rem;
                 // }
@@ -151,12 +151,13 @@
             .down {
                 position: relative;
                 // transition: .3s all;
-                
+
                 img {
                     animation: animate1 infinite alternate 2s;
                     margin-bottom: 3rem;
-                    
+
                 }
+
                 &::before {
                     content: "";
                     position: absolute;
@@ -173,9 +174,9 @@
     }
 
     @keyframes animate1 {
-       from {
-        transform: translateY(20px);
-       }
+        from {
+            transform: translateY(20px);
+        }
     }
 
     @keyframes animate2 {

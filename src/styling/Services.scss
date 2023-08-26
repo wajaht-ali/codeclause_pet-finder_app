@@ -1,7 +1,7 @@
 @import "./Utilities.scss";
 
 .services {
-    height: 100vh;
+    height: 60vh;
     width: 100%;
     font-size: 1.5rem;
     color: $color1;
@@ -10,22 +10,82 @@
     >.top-section {
         height: 100%;
         width: 100%;
-        padding: 4rem 0;
+        padding: 1rem 0;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         line-height: 3rem;
-        background: url("../assets/imgs/img1.jpeg") no-repeat center center/cover;
+        position: relative;
+        background-color: rgba(0, 0, 0, .4);
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            background: url("../assets/imgs/img5.jpeg") no-repeat center center/cover;
+        }
 
         >h4 {
-            color: $color3;
+            color: $color1;
         }
 
         >h1 {
             color: $color2;
         }
+
     }
 
+    >.services-section {
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #f3f3f3;
+        // border: 2px solid red;
+        position: relative;
+
+        .cards {
+            height: 130%;
+            width: 80%;
+            position: absolute;
+            bottom: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            // line-height: 3rem;
+
+            .card {
+                height: 100%;
+                width: 100%;
+                // transform: scale();
+                box-shadow: inset 1px 1px 5px #fff;
+                background-color: $color2;
+                text-align: center;
+                padding: 2rem;
+
+                &:nth-child(2) {
+                    height: 110%;
+                }
+
+                svg {
+                    margin: 1rem 0;
+                    font-size: 2.5rem;
+                }
+
+                p {
+                    margin: 1rem 0;
+                    text-align: justify;
+                }
+
+            }
+        }
+    }
 
 }
