@@ -35,7 +35,7 @@
             width: 100%;
             padding: 2rem;
             border: none;
-            box-shadow: 3px 3px 10px 3px #333;
+            box-shadow: 3px 3px 10px 3px $color2;
 
             .form-items {
                 display: flex;
@@ -92,4 +92,22 @@
         }
     }
 
+}
+
+@media (max-width: 550px) {
+    .contact-page {
+        .heading {
+            p {
+                text-align: center;
+            }
+        }
+
+        .contact-form {
+            height: 80%;
+            width: 100%;
+            background: #e1e1e1;
+            border: 2px solid #333;
+            border-radius: 10px;
+        }
+    }
 }
