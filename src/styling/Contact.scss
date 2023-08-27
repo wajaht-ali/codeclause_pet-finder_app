@@ -1,0 +1,95 @@
+@import "./Utilities.scss";
+
+.contact-page {
+    height: 100vh;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    >.heading {
+        // padding: 2rem;
+        text-align: center;
+        line-height: 2.5rem;
+
+        h1 {
+            color: $color2;
+        }
+
+        p {
+            font-size: 1.3rem;
+        }
+    }
+
+    .contact-form {
+        height: 80%;
+        width: 30%;
+        background: #e1e1e1;
+        border: 2px solid #333;
+        border-radius: 10px;
+
+        form {
+            height: 100%;
+            width: 100%;
+            padding: 2rem;
+            border: none;
+            box-shadow: 3px 3px 10px 3px #333;
+
+            .form-items {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+
+                >label {
+                    font-size: 1.3rem;
+                    margin: .8rem 0;
+                }
+
+                >input {
+                    height: 2rem;
+                    background-color: #f1eded;
+                    border: none;
+                    border-bottom: 2px solid $color3;
+                    border-radius: 5px;
+                    padding: 1rem;
+                }
+
+                >textarea {
+                    border: none;
+                    background-color: #f1eded;
+                    border-bottom: 2px solid $color3;
+                    border-radius: 5px;
+                    padding: 1rem;
+                }
+
+                >button {
+                    background-color: #f1eded;
+                    border: 2px solid $color2;
+                    border-radius: 5px;
+                    margin: .8rem 0;
+                    padding: .5rem;
+
+                    svg {
+                        background-color: none;
+                        font-size: 1rem;
+                        color: $color2;
+
+                    }
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: $color2;
+                        color: $color1;
+                    }
+                    &:hover svg{
+                        color: $color1;
+                    }
+
+                }
+            }
+        }
+    }
+
+}
