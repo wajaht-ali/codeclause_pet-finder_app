@@ -35,7 +35,6 @@ const Header = () => {
                         <li className='current'>
                             <Link to={"/"} >Home</Link>
                         </li>
-                        <li>About</li>
                         <li>
                             <Link className='link' to={"/services"}> Services </Link>
                         </li>
