@@ -81,7 +81,7 @@
                 }
             }
 
-            .link h2{
+            .link h2 {
                 color: #333;
                 margin: 0px 10px;
             }
@@ -110,17 +110,47 @@
                     }
                 }
             }
+
             .special {
                 background-color: $color2;
                 border-radius: 5px;
-                color: #fff;
+                color: $color2;
 
                 &:hover {
                     border: 2px solid $color2;
                     background-color: rgb(253, 243, 243);
-                    
+
                 }
+
                 // border: 2px solid $color2;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .header {
+        height: 15vh;
+        width: 100%;        
+        .topbar {
+            visibility: hidden;
+        }
+
+        >.navbar {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size: 1rem;
+            line-height: 2rem;
+            margin: 0;
+            padding: 0;
+
+            >.nav-items>ul>li {
+                margin: 0;
+                padding: 5px;
             }
         }
     }

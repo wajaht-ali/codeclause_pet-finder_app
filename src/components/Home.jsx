@@ -9,6 +9,8 @@ import img2 from "../assets/imgs/img2.jpeg";
 import img3 from "../assets/imgs/img3.jpeg";
 import img4 from "../assets/imgs/img4.jpeg";
 import img5 from "../assets/imgs/img5.jpeg";
+import fish from "../assets/imgs/fish.jpeg"
+import rabbit from "../assets/imgs/rabbit.webp"
 
 const Home = () => {
     return (
@@ -36,7 +38,7 @@ const Home = () => {
                 <h3>We Deal in:
                     <TypeWriter
                         options={{
-                            strings: ["Cats", "Dogs", "Birds"],
+                            strings: ["Cats", "Dogs", "Fishes", "Rabbits"],
                             autoStart: true,
                             loop: true,
                             // interval: "1000",
@@ -56,25 +58,25 @@ const Home = () => {
                 <div className="animals-view">
                     {/* <div className="pics"> */}
                     <div className="box top">
-                        <img src={img1} alt="img" />
+                        <img src={img4} alt="img" />
                         <h2>Cats</h2>
                     </div>
                     <div className="box down">
-                        <img src={img2} alt="img" />
+                        <img src={img3} alt="img" />
                         <h2>Dogs</h2>
                     </div>
                     <div className="box top">
-                        <img src={img3} alt="img" />
-                        <h2>Birds</h2>
-                    </div>
-                    <div className="box down">
-                        <img src={img4} alt="img" />
-                        <h2>Rabbits</h2>
-                    </div>
-                    <div className="box top">
-                        <img src={img5} alt="img" />
+                        <img src={fish} alt="img" />
                         <h2>Fishes</h2>
                     </div>
+                    <div className="box down">
+                        <img src={rabbit} alt="img" />
+                        <h2>Rabbits</h2>
+                    </div>
+                    {/* <div className="box top">
+                        <img src={img5} alt="img" />
+                        <h2>Fishes</h2>
+                    </div> */}
                     {/* </div> */}
                 </div>
             </div>
